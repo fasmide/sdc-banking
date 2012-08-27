@@ -1,0 +1,45 @@
+<html>
+	<head>
+		<script src="webtoolkit.sha1.js"> </script>
+		<script src="bank.js"> </script>
+		<script src="jquery.min.js"> </script>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<script src="main.js"></script>
+		<title>Minibanken</title>
+		<LINK href="style.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+	
+	<div id="main">
+		<div id="controls">
+			<h1>Minibanken</h1>
+			<input id="cprInput" type="text" placeholder="CPR Nummer" />
+			<input id="pinCodeInput" type="password" placeholder="Pin kode" />
+			<input id="activationCodeInput" type="password" placeholder="Aktiverings kode" />
+			<button id="loginBtn">Login</button>
+			<br />
+			<select placeholder="Vælg konto" id="accountInput">
+				
+			</select>
+		</div>
+		<div id="saldo"></div>
+		<table>
+			<thead>
+				<tr>
+					<th>Date</th>
+					<th>Text</th>
+					<th>Amount</th>
+					<th>Balance</th>
+				</tr>
+			</thead>	
+			<tbody id="transactions">
+				<tr>
+					<td colspan="4">Login to see transactions</td>
+				</tr>
+				
+			</tbody>
+		</table>
+		
+	</div>
+	</body>
+</html>

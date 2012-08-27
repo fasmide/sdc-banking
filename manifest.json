@@ -1,0 +1,14 @@
+{
+  "name": "Minibanken",
+  "description": "Proof of concept",
+  "version": "1",
+  "manifest_version": 2,
+  "app": {
+    "launch": {
+      "local_path": "main.html"
+    }
+  },
+  "permissions": [
+  	"https://b.sdc.dk/"
+  ]
+}

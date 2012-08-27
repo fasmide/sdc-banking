@@ -1,0 +1,10 @@
+#main {
+	margin: 0 auto;
+	width: 700px;
+	background-color: lightgray;
+}
+#saldo {
+	text-align: center;
+	font-size: 200%;
+}
+table { width: 100%;}
