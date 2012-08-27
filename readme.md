@@ -8,7 +8,7 @@ This more or less useless mini banking app that serves as an example to show peo
 
 
 ## Screenshots
-![screenshot 1](http://dl.dropbox.com/u/39209709/Screenshot_2012-03-27-01-52-46.png)
+![screenshot 1](https://raw.github.com/fasmide/sdc-banking/master/screenshot.png)
 
 ## License
 MIT License
